@@ -3,32 +3,32 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed
- * by a new line. But for multiples of three print Fizz
- * instead of the number and for the multiples
- * of five print Buzz. For numbers which are multiples
- * of both three and five print FizzBuzz
- * Return: 0 0n success
+ * by a new line. But for multiples of three print
+ * Fizz instead of the number and for
+ * the multiples of five print Buzz. For numbers which are
+ * multiples of both three and five print FizzBuzz
+ * Return: 0 on success
  */
 
 int main(void)
 {
-	int num;
-	char fizz[] = "Fizz";
-	char buzz[] = "Buzz";
-	char fizzBuzz[] = "Fizz Buzz";
+	int i;
+	char f[] = "Fizz";
+	char b[] = "Buzz";
+	char fb[] = "FizzBuzz";
 
-	for (num = 1; num <= 100; num++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (num == 100)
-			printf("%s", buzz);
-		else if ((num % 3 == 0) && (num % 5 == 0))
-			printf("%s ", fizzBuzz);
-		else if (num % 3 == 0)
-			printf("%s ", fizz);
-		else if (num % 5 == 0)
-			printf("%s ", buzz);
+		if (i == 100)
+			printf("%s", b);
+		else if ((i % 3 == 0) && (i % 5 == 0))
+			printf("%s ", fb);
+		else if (i % 3 == 0)
+			printf("%s ", f);
+		else if (i % 5 == 0)
+			printf("%s ", b);
 		else
-			printf("%d ", num);
+			printf("%d ", i);
 	}
 	printf("\n");
 	return (0);
