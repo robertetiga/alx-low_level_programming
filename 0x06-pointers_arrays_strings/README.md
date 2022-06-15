@@ -2,7 +2,7 @@
 
 * All files are compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * My code uses the Betty style to enhance readability and ease of maintenance. I checked my code using betty-style.pl and betty-doc.pl
-* I did not use the standard library. Any use of functions like printf, puts, etc… is intentionally aoided. I created my _putchar() function to print to `stdout`.
+* I did not use the standard library. Any use of functions like printf, puts, etc… is intentionally avoided. I created my _putchar() function to print to `stdout`.
 * The prototypes of all my functions and the prototype of the function _putchar are included in my header file called `main.h.
 ***
 ## FIles
