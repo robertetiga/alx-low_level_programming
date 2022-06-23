@@ -15,7 +15,7 @@ int calc_sqrt(int num, int root)
 	if ((root * root) == num)
 		return (root);
 
-	if (root == num / 2 )
+	if (root == num / 2)
 		return (-1);
 
 	return (calc_sqrt(num, root + 1));
