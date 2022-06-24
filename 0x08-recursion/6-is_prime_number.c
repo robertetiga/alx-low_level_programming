@@ -17,7 +17,7 @@ int dtct_prime(int n, int div)
 }
 
 /**
- * is_prime_number - calls the dtct_prime function
+ * is_prime_number - returns the dtct_prime function
  * @n: input integer
  * Return: 1 if n is a prime number
  */
