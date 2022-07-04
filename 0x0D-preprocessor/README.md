@@ -1,0 +1,16 @@
+# C - Preprocessor
+
+* All files are compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+* My code uses the Betty style to enhance readability and ease of maintenance. I checked my code using betty-style.pl and betty-doc.pl
+* All header files are include guarded
+***
+
+## Files
+
+| Filename | Description |
+| -------- | ----------- |
+| `0-object_like_macro.h` | defines a macro named SIZE as an abbreviation for the token 1024 |
+| `1-pi.h` | defines a macro named PI as an abbreviation for the token 3.14159265359 |
+| `2-main.c` | prints the name of the file it was compiled from, followed by a new line. |
+| `3-function_like_macro.h` | function-like macro ABS(x) that computes the absolute value of a number x. |
+| `4-sum.h` | function-like macro SUM(x, y) that computes the sum of the numbers x and y |
